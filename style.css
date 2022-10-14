@@ -1,0 +1,108 @@
+
+
+
+body {
+
+    background-color: black;
+}
+
+.PostCardHolder{
+
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+    height: 400px;
+    width: 600px;
+}
+
+.PostCardHeader{
+margin-left: 20px;
+margin-right: 20px;
+padding: 20px;
+height: 40px;
+width: 500px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo{
+  
+  
+    box-shadow: 3px;
+
+}
+
+.Title{
+    font-family: 'Silkscreen', cursive;
+
+}
+
+.PostCardBody{
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.PostCardFill{
+
+    text-align: justify;
+    width: 500px;
+    height: 200px;
+    margin-right: 20px;
+    padding-right: 15px;
+
+    
+}
+.PostCardInputs{
+
+    
+ 
+    align-self: flex-end;
+    width: 200px;
+    height: 200px;
+   display: block;
+   
+}
+.PostCardInputs input{
+    
+
+
+    padding-top: 10px;
+    float: right;
+    border: none;
+    border-bottom: 2px solid gray;
+    margin: 5px 20px 20px 5px;
+    color: gray;
+    text-shadow: 2px;
+}
+
+.PostCardFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ #Button1 {
+
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(204, 203, 203);
+}
+
+#Button1:hover{
+
+    background-color: darkgray;
+}
+#Button1:active{
+
+    border-top: none;
+    border-left: none;
+    border: 2px solid rgb(175, 175, 240);
+}
